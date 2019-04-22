@@ -1,4 +1,36 @@
-.wallpaper{
-background-image:url("Bitcoin-Diamond.jpg");
+
+
+
+
+.header {
+    width: 150px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.container{
+
+    width: 500px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+.Numbertoget{
+    width: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.winsAndLosses{
+    width: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    
 
 }

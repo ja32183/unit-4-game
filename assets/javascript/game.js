@@ -29,8 +29,7 @@ function reset(){
           wins++; 
           $('#numberWins').text(wins);
           reset();
-        }
-        
+        }        
         function loser(){
         alert ("You lose!");
           losses++;
@@ -41,7 +40,6 @@ function reset(){
             userTotal = userTotal + num1;
             console.log("New userTotal= " + userTotal);
             $('#finalTotal').text(userTotal); 
-                  //sets win/lose conditions
                 if (userTotal == Random){
                   winner();
                 }

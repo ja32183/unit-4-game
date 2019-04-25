@@ -12,7 +12,7 @@ $( document ).ready(function(){
 
   $('#numberWins').text(wins);
 $('#numberLosses').text(losses);
-//resets the game
+
 function reset(){
       Random=Math.floor(Math.random()*101+19);
       console.log(Random)
@@ -30,7 +30,7 @@ function reset(){
           $('#numberWins').text(wins);
           reset();
         }
-        //addes the losses to the userTotal
+        
         function loser(){
         alert ("You lose!");
           losses++;
@@ -64,7 +64,7 @@ function reset(){
             userTotal = userTotal + num3;
             console.log("New userTotal= " + userTotal);
             $('#finalTotal').text(userTotal);
-        //sets win/lose conditions
+        
                   if (userTotal == Random){
                   winner();
                 }

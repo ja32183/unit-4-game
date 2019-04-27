@@ -1,3 +1,7 @@
+body{
+     background-color: aquamarine;
+}
+
 .header {
     width: 150px;
     border: 1px solid black;
